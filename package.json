@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Shekhar7373.github.io/Shekhar_Portfolio",
+  "homepage": "Shekhar_Portfolio",
   "private": true,
   "dependencies": {
     "@octokit/rest": "^21.0.1",
