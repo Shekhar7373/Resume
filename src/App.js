@@ -28,7 +28,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/Shekhar_Portfolio">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -39,7 +39,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           {/* <Route path="*" element={<Navigate to="/"/>} /> */}
-          {/* This last path is optionally if anything written in the path other than above mentioned it will be redirected to home page, if we want to use above feature than we must import Navigate form "react-router-dom" */}
         </Routes>
         <Footer />
       </div>
